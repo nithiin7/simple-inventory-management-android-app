@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".UpdateActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:src="@drawable/update"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/txtDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="Enter Details of the Product to Update: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pdtmodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Model: "
+        android:layout_below="@+id/txtDetails"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/pdtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name: "
+        android:layout_below="@+id/pdtmodel"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price: "
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pdtname"/>
+
+    <EditText
+        android:id="@+id/qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity: "
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/price"/>
+
+    <EditText
+        android:id="@+id/manufacturer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Manufacturer: "
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/qty"/>
+
+    <EditText
+        android:id="@+id/warranty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Warranty: "
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/manufacturer"/>
+
+    <Button
+        android:id="@+id/btnenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/warranty"
+        android:background="@color/myColor"/>
+
+</RelativeLayout>

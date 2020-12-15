@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_ascending"
+        android:title="Name Ascending" />
+
+    <item
+        android:id="@+id/action_descending"
+        android:title="Name Descending" />
+
+    <item
+        android:id="@+id/action_ascprice"
+        android:title="Price Ascending" />
+
+    <item
+        android:id="@+id/action_descprice"
+        android:title="Price Descending" />
+
+</menu>

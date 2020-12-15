@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".AddStockActivity">
+
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:src="@drawable/stock"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:id="@+id/txtDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogo"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:text="Enter the Product Model to Remove: "
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pdtname3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Model: "
+        android:layout_below="@+id/txtDetails"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/pdtname3"
+        android:background="@color/myColor"/>
+
+</RelativeLayout>
