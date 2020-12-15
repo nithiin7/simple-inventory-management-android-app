@@ -8,10 +8,13 @@ The Admin can:
   - Remove Existing Products
   - Update Existing Product
   - View all products in inventory using Custom Adapter and Recycler View
+  - Sort all products by name or price
   
 The User can: 
   - Create an account by signing up
   - Edit their profile
+  - View all available Products
+  - Sort all products by name or price
   - Buy Products added by Admin
   - View Purchased Order Details.
   
